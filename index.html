@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GTA6 Fan Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-shell">
+    <header>
+      <h1>GTA6 Fan Game</h1>
+      <p>Drive fast, dodge traffic, and collect coins.</p>
+    </header>
+    <div class="hud">
+      <div>Score: <span id="score">0</span></div>
+      <div>Level: <span id="level">1</span></div>
+      <div>Speed: <span id="speed">3</span></div>
+    </div>
+    <div class="canvas-container">
+      <canvas id="gameCanvas" width="480" height="640"></canvas>
+      <div class="overlay" id="overlay">
+        <div class="overlay-panel" id="overlayPanel">
+          <h2>Press ENTER to start</h2>
+          <p>Use arrow keys to move.</p>
+          <p>Avoid red cars, collect yellow coins.</p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>Built fast from scratch in your repo.</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
